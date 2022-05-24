@@ -1,0 +1,136 @@
+body {
+	font-family: sans-serif;	
+	/*overflow: hidden;*/
+	background-size: cover;
+
+}
+
+.main header{
+	text-align: center;
+	
+}
+.main a{
+	color: black
+}
+
+.container {
+	width: 1200px;
+	height: 300px auto;
+	
+	margin:2% auto;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.1);
+	box-shadow: 0 0 17px #333;
+}
+
+.header {
+	text-align: center;
+	padding-top: 2px;
+}
+.sub{
+	font-size: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+	
+}
+.header h1 {
+	color: #333;
+	font-size: 45px;
+	margin-bottom: 80px;
+}
+
+.main {
+	text-align: center;
+}
+
+.main input, button {
+	width: 300px;
+	height: 40px;
+	border:none;
+	outline: none;
+	padding-left: 40px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: #333;
+	margin-bottom: 30px;
+}
+
+.main button {
+	padding-left: 0;
+	background-color: #83acf1;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 80px;
+}
+
+.main button:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #7799d4;
+}
+
+.logout button {
+	width: 150px;
+	height: 40px;
+	background-color: #83acf1;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-left:1150px;
+
+	
+}
+
+.logout button:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #7799;
+	
+}
+.backtomenu button{
+	width: 150px;
+	height: 40px;
+	background-color: #83acf1;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+.backtomenu button:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #7799;
+	
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+ 
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding-top: 8px;
+  
+  
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+table button{
+	width: 110px;
+	height: 40px;
+	margin-top: 15px;
+}
+.backtomenu{
+	width: 180px;
+	height: 40px;
+	background-color: #83acf1;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-left:30px;
+}
+.backtomenu button:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #7799;
+	
+}
+.errors {color: red; }
